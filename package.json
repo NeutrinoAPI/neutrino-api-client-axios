@@ -1,0 +1,12 @@
+{
+    "name": "neutrino-api-client-axios",
+    "version": "4.6.8",
+    "description": "Node client using the Axios HTTP client",
+    "main": "neutrino-api-client.js",
+    "author": "Neutrino API",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "0.27.2"
+    },
+    "devDependencies": {}
+}
