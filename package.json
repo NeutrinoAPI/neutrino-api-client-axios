@@ -1,9 +1,14 @@
 {
     "name": "neutrino-api-client-axios",
-    "version": "4.6.13",
-    "description": "Node client using the Axios HTTP client",
-    "main": "neutrino-api-client.js",
-    "author": "Neutrino API",
+    "version": "4.6.15",
+    "description": "Neutrino API Node.js client using the Axios HTTP library",
+    "main": "src/client/neutrino-api-client.js",
+    "author": "Neutrino API <ops@neutrinoapi.com> (https://www.neutrinoapi.com)",
+    "homepage": "https://www.neutrinoapi.com",
+    "bugs": {
+        "url": "https://www.neutrinoapi.com/contact-us"
+    },
+    "keywords": ["neutrino-api", "api", "data", "geolocation", "telephony", "security", "rendering", "e-commerce"],
     "license": "MIT",
     "dependencies": {
         "axios": "0.27.2"

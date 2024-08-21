@@ -1,6 +1,6 @@
 # NeutrinoAPI Node Axios SDK
 
-Node client using the Axios HTTP client
+Neutrino API Node.js client using the Axios HTTP library
 
 The official API client and SDK built by [NeutrinoAPI](https://www.neutrinoapi.com/)
 
@@ -11,7 +11,7 @@ The official API client and SDK built by [NeutrinoAPI](https://www.neutrinoapi.c
 | JSON Library     | Native |
 | HTTP/2           | No     |
 | HTTP/3           | No     |
-| CodeGen Version  | 4.6.13 |
+| CodeGen Version  | 4.6.15 |
 
 ## Getting started
 
@@ -30,6 +30,8 @@ const neutrinoAPIClient = new NeutrinoAPIClient('<your-user-id>', '<your-api-key
 $ node src/examples/bad-word-filter.js
 ```
 You can find examples of all APIs in _src/examples/_
+
+Set the __'your-user-id'__ and __'your-api-key'__ values in the example to retrieve real API responses
 
 ## For Support
 [Contact us](https://www.neutrinoapi.com/contact-us/)
