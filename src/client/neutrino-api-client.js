@@ -13,13 +13,13 @@ const APIResponse = require('./api-response');
 class NeutrinoAPIClient {
 
     constructor(userID, apiKey, baseURL) {
-        this.Multicloud = 'https://neutrinoapi.net/';
-        this.AWS = 'https://aws.neutrinoapi.net/';
-        this.GCP = 'https://gcp.neutrinoapi.net/';
-        this.Backup = 'https://neutrinoapi.com/';
+        this.MULTICLOUD_ENDPOINT = 'https://neutrinoapi.net/';
+        this.AWS_ENDPOINT = 'https://aws.neutrinoapi.net/';
+        this.GCP_ENDPOINT = 'https://gcp.neutrinoapi.net/';
+        this.BACKUP_ENDPOINT = 'https://neutrinoapi.com/';
         this.userID = userID;
         this.apiKey = apiKey;
-        this.baseURL = (baseURL) ? baseURL : this.Multicloud;
+        this.baseURL = (baseURL) ? baseURL : this.MULTICLOUD_ENDPOINT;
     }
 
     /**
