@@ -1,6 +1,6 @@
 {
     "name": "neutrino-api-client-axios",
-    "version": "4.6.16",
+    "version": "4.7.1",
     "description": "Neutrino API Node.js client using the Axios HTTP library",
     "main": "src/client/neutrino-api-client.js",
     "author": "Neutrino API <ops@neutrinoapi.com> (https://www.neutrinoapi.com)",
@@ -11,7 +11,7 @@
     "keywords": ["neutrino-api", "api", "data", "geolocation", "telephony", "security", "rendering", "e-commerce"],
     "license": "MIT",
     "dependencies": {
-        "axios": "0.27.2"
+        "axios": "0.30.0"
     },
     "devDependencies": {}
 }
